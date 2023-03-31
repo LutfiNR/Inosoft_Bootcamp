@@ -24,7 +24,7 @@ function kelilingLingkaran(float $angka)
 
 for ($i=1.00; $i <= 100; $i++) { 
     if ($i%3==0 && $i%5==0) {
-        echo number_format(luasPersegi($i)) . PHP_EOL;
+        echo number_format(luasPersegi($i),2) . PHP_EOL;
     }
     elseif ($i%3==0) {
         echo number_format(luasPersegi($i),2) . PHP_EOL;
