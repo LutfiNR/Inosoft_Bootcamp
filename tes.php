@@ -27,7 +27,7 @@ for ($i=1.00; $i <= 100; $i++) {
         echo number_format(luasPersegi($i),2) . PHP_EOL;
     }
     elseif ($i%3==0) {
-        echo number_format(luasPersegi($i),2) . PHP_EOL;
+        echo number_format(luasLingkaran($i),2) . PHP_EOL;
     }
     elseif ($i%5==0) {
         echo number_format(kelilingLingkaran($i),2) . PHP_EOL;
